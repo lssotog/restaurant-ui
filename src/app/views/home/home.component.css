@@ -6,3 +6,25 @@
   display: grid;
   place-items: center;
 }
+
+.home-right-img-bg{
+  position: absolute;
+  width: 159px;
+  height: 159px;
+  top: 58px;
+  left: 222px;
+  angle: 0 deg;
+  opacity: 1;
+  background-color: var(--dark-bg);
+  border-radius: 50%;
+}
+
+.home-right-img {
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  top: 92px;
+  left: 262px;
+  angle: 0 deg;
+  opacity: 1;
+}
