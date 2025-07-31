@@ -8,6 +8,11 @@
   --nunito: "Nunito Sans";
 }
 
+@mixin img-dark-bg {
+  background-color: var(--dark-bg);
+  border-radius: 50%;
+};
+
 body {
   display: flex;
   flex-direction: column;
