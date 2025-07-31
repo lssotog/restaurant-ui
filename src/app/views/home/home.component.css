@@ -1,9 +1,8 @@
 .home-container {
   width: 320px;
   height: 568px;
-  background-color: #2C2C2C;
-  color: #fff;
-  border: #e314cb solid;
+  background-color: var(--dark);
+  color: var(--white);
   display: flex;
   flex-direction: column;
   justify-content: center;

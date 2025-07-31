@@ -1,3 +1,10 @@
+:root {
+  --green: #28B57E;
+  --dark: #2C2C2C;
+  --white: #fff;
+  --nunito: "Nunito Sans";
+}
+
 body {
   display: flex;
   flex-direction: column;
