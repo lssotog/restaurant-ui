@@ -1,3 +1,5 @@
+@import "./app/styles/_init-css.css";
+
 :root {
   --green: #28B57E;
   --dark: #2C2C2C;
