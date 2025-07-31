@@ -1,0 +1,11 @@
+.home-container {
+  width: 320px;
+  height: 568px;
+  background-color: #2C2C2C;
+  color: #fff;
+  border: #e314cb solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
