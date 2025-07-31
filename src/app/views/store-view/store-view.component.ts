@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './store-view.component.html',
-  styleUrl: './store-view.component.css'
+  styleUrl: './store-view.component.scss'
 })
 export class StoreViewComponent {
 

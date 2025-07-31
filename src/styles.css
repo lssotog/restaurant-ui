@@ -1,4 +1,4 @@
-@import "./app/styles/_init-css.css";
+@import "./app/styles/_init-css.scss";
 
 :root {
   --green: #28B57E;
