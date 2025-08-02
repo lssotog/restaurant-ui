@@ -9,5 +9,5 @@ import { ButtonComponent } from "../../shared/components/button/button.component
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-
+  text: string = 'Get started';
 }
