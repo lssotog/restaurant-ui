@@ -12,22 +12,25 @@ export const routes: Routes = [
     title: appBaseTitle + 'Home'
   },
   {
-    path: 'Home',
+    path: 'home',
     component: HomeComponent,
     title: appBaseTitle + 'Home'
   },
   {
-    path: 'Shopping cart',
+    path: 'shopping-cart',
     component: ShoppingCartComponent,
     title: appBaseTitle + 'Shopping cart'
   },
   {
-    path: 'Store',
+    path: 'store',
     component: StoreViewComponent,
     title: appBaseTitle + 'Store'
   },
+  {
+    path: '**',
+    redirectTo: ''
+  }
 ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
