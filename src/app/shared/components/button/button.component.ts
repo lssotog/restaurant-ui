@@ -9,5 +9,6 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class ButtonComponent {
   @Input() buttonText: string ='';
+  @Input({ required: true}) ariaLabel: string = '';
   @Output() onClick = new EventEmitter<string>();
 }

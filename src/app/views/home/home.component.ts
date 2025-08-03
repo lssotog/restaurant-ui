@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent {
   text: string = 'Get started';
+  ariaLabel: string = 'Get started';  
   router = inject(Router);
 
   redirectToStoreView(){

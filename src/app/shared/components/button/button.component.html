@@ -1,1 +1,7 @@
-<button class="basic-button" (click)="onClick.emit()">{{buttonText}}</button>
+<button 
+  class="basic-button" 
+  (click)="onClick.emit()"
+  [attr.aria-label]="ariaLabel"
+>
+  {{buttonText}}
+</button>
