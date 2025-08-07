@@ -1,7 +1,14 @@
-<button 
-  class="basic-button" 
-  (click)="onClick.emit()"
-  [attr.aria-label]="ariaLabel"
->
+<button class="{{
+  theme === 'primary' ? 'primary-theme' :
+  theme === 'secondary' ? 'secondary-theme' : 
+  theme === 'error' ? 'secondary-theme' : 
+  theme === 'success' ? 'secondary-theme' : 
+  theme === 'warning' ? 'secondary-theme' : 
+  theme === 'outline' ? 'secondary-theme' : 
+  theme === 'tertiary' ? 'tertiary-theme' : ''
+}}"
+[disabled]="theme === 'disabled'"
+(click)="onClick.emit()"
+[attr.aria-label]="ariaLabel">
   {{buttonText}}
 </button>

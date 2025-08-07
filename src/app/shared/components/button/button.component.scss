@@ -17,5 +17,23 @@
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
+}
 
+.primary-theme {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.secondary-theme {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.tertiary-theme {
+  background-color: #2b18b4
+}
+
+[disabled] {
+  background-color: rgb(106, 106, 106);
+  color: lightgrey;
 }
