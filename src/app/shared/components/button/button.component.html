@@ -1,14 +1,16 @@
-<button class="{{
-  theme === 'primary' ? 'primary-theme' :
-  theme === 'secondary' ? 'secondary-theme' : 
-  theme === 'error' ? 'secondary-theme' : 
-  theme === 'success' ? 'secondary-theme' : 
-  theme === 'warning' ? 'secondary-theme' : 
-  theme === 'outline' ? 'secondary-theme' : 
-  theme === 'tertiary' ? 'tertiary-theme' : ''
-}}"
-[disabled]="theme === 'disabled'"
+<button [ngClass]="{
+  'primary-theme': theme === 'primary',
+  'secondary-theme': theme === 'secondary',
+  'tertiary-theme': theme === 'tertiary',
+  'error-theme': theme === 'error',
+  'success-theme': theme === 'success',
+  'warning-theme': theme === 'warning',
+  'outline-theme': theme === 'outline',
+  'rounded': shape === 'rounded',
+  'square': shape === 'square'
+}"
 (click)="onClick.emit()"
-[attr.aria-label]="ariaLabel">
+[attr.aria-label]="ariaLabel"
+[disabled]="theme === 'disabled'">
   {{buttonText}}
 </button>
