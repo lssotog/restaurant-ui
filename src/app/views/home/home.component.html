@@ -18,6 +18,12 @@
     <p>You can’t stop eating, <br> so go!</p>
   </section>
   <section>
-    <rui-button></rui-button>
+    <rui-button 
+      [buttonText]="text" 
+      [ariaLabel]="ariaLabel"
+      [shape]="shape"
+      theme="primary"
+      (onClick)="redirectToStoreView()"
+    ></rui-button>
   </section>
 </div>

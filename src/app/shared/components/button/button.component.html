@@ -1,1 +1,6 @@
-<button class="basic-button">Get started</button>
+<button class="{{theme}} {{shape}}"
+(click)="onClick.emit()"
+[attr.aria-label]="ariaLabel"
+[disabled]="theme === 'disabled'">
+  {{buttonText}}
+</button>
