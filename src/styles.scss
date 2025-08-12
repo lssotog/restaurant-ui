@@ -20,3 +20,12 @@ body {
   align-items: center;
   font-family: var(--nunito), sans-serif;
 }
+
+.container {
+  width: 320px;
+  height: 568px;
+  background-color: var(--dark);
+  color: var(--white);
+  position: relative;
+  overflow: hidden;
+}
