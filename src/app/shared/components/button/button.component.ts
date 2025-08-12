@@ -1,10 +1,10 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { ButtonShape, ButtonTheme } from '../../model/interfaces';
-import { CommonModule, NgClass } from '@angular/common';
+
 @Component({
   selector: 'rui-button',
   standalone: true,
-  imports: [ NgClass ],
+  imports: [  ],
   templateUrl: './button.component.html',
   styleUrl: './button.component.scss'
 })
