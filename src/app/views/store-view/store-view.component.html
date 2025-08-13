@@ -1,33 +1,100 @@
-<section>
-  <h2> Delivering Deliciousness </h2>
-  <input type="search" value="Search">
-  <div>
-    @for (category of categories; track category) {
-    <h4> {{category.product}} </h4>
-    }
-    
+<div class="container">
+  <div class="view-container">
+    <section>
+      <p class="description-heading"> Delivering Deliciousness </p>
+      <input class="input-search" type="search" value="Search">
+      <div class="categories-container">
+        <div class="category-item">
+          <img 
+            src="../../../assets/img/salad.png" 
+            alt="the alt text"
+            class="category-img "
+            >
+          <p class="category-heading">Salad</p>
+        </div>
+        <div class="category-item">
+          <img 
+            src="../../../assets/img/salad.png" 
+            alt="the alt text"
+            class="category-img "
+            >
+          <p class="category-heading">Salad</p>
+        </div>
+        <div class="category-item">
+          <img 
+            src="../../../assets/img/salad.png" 
+            alt="the alt text"
+            class="category-img "
+            >
+          <p class="category-heading">Salad</p>
+        </div>
+        <div class="category-item">
+          <img 
+            src="../../../assets/img/salad.png" 
+            alt="the alt text"
+            class="category-img "
+            >
+          <p class="category-heading">Salad</p>
+        </div>
+      </div>
+    </section>
+    <section>
+
+      <div class="section-container-popular-items">
+        <p class="heading-section-popular-items"> Popular items </p>
+        <a class="heading-text-all-menu"> See All </a>
+      </div>
+
+      <!-- <div>
+        @for (dish of dishes; track dish) {
+          <div class="categories-container">
+            <img src="" alt="The alt text">
+            <h4> {{dish.product}} </h4>
+          </div>
+        }
+      </div> -->
+      <div class="dishes-card-container">
+        <div class="dishes-card">
+          <img
+            src="../../../assets/img/salad.png" 
+            class="dish-img"
+          >
+          <div class="dish-description-container">
+            <p class="dish-heading"> Special Noodles </p>
+            <div class="price-container">
+              <p class="price-text"> $15.0 </p>
+              <button class="add-button"> + </button>
+            </div>
+          </div>
+        </div>
+        <div class="dishes-card">
+          <img
+            src="../../../assets/img/salad.png" 
+            class="dish-img"
+          >
+          <div class="dish-description-container">
+            <p class="dish-heading"> Special Noodles </p>
+            <div class="price-container">
+              <p class="price-text"> $15.0 </p>
+              <button class="add-button"> + </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
   </div>
-</section>
-<section>
 
-  <div>
-    <h2> Popular items </h2>
-    <p> See All </p>
-  </div>
-
-  <div>
-    <img>
-    <p> Special Noodles </p>
-    <div>
-      <p> $15.0 </p>
-      <button> + </button>
-    </div>
-  </div>
-
-</section>
-
-<section>
-  <i></i>
-  <i></i>
-  <i></i>
-</section>
+  <footer>
+    <button class="footer-button">
+      <i class="icon-button">+</i>
+    </button>
+    <button class="footer-button">
+      <i class="icon-button">+</i>
+    </button>
+    <button class="footer-button">
+      <i class="icon-button">+</i>
+    </button>
+  </footer>
+</div>

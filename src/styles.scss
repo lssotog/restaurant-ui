@@ -3,10 +3,15 @@
 :root {
   --green: #28B57E;
   --dark: #2C2C2C;
+  --dark-gray: #373737;
+  --dark-medium-gray: #454545;
+  --medium-gray: #898989;
+  --light-gray: #A5A5A5;
   --red: tomato;
   --dark-bg: #1E1E1E66;
   --white: #fff;
   --nunito: "Nunito Sans";
+  --lato:"Lato";
 }
 
 @mixin img-dark-bg {
@@ -28,4 +33,8 @@ body {
   color: var(--white);
   position: relative;
   overflow: hidden;
+}
+
+p {
+  margin: 0px;
 }
