@@ -5,7 +5,8 @@ export interface Product {
   category: Categories,
   product: string,
   description: string,
-  amount: number
+  amount: number,
+  img?: string
 }
 
 export type Menu = Product[]

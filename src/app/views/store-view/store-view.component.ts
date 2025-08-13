@@ -1,6 +1,11 @@
 import { Component } from '@angular/core';
-import { Menu } from '../../shared/model/menu';
+import { Menu, Product } from '../../shared/model/menu';
+import { MENU_MOCK } from '../../shared/mock';
 
+interface Producto {
+  category: string;
+  img: string
+}
 @Component({
   selector: 'rui-store-view',
   standalone: true,
@@ -9,5 +14,27 @@ import { Menu } from '../../shared/model/menu';
   styleUrl: './store-view.component.scss'
 })
 export class StoreViewComponent {
-  categories: Menu = []
+  public categories: string[] = [
+    "Salad",
+    "Junk food",
+    "Desserts",
+    "Steak",
+    "Work food"
+  ]
+
+
+  public categorias: Producto[] = [
+    { 
+      category: "Salad",
+      img: ""
+    },
+    { 
+      category: "Junk food",
+      img: ""
+    },
+
+  ]
+  dishes: Menu = MENU_MOCK;
+
+  
 }
