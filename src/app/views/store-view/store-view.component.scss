@@ -133,6 +133,9 @@
   border-radius: 30px;
   border-style: hidden;
   background-color: var(--medium-gray);
+    &:hover {
+    color: var(--green);
+  }
 }
 footer {
   width: 217px;

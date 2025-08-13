@@ -13,7 +13,7 @@
   width: 159px;
   height: 159px;
   top: 18px;
-  left: 490px;
+  left: 221px;
   @include img-dark-bg;
 }
 
@@ -22,7 +22,7 @@
   width: 88px;
   height: 88px;
   top: 42px;
-  left: 529px;
+  left: 245px;
 }
 
 .home-burger-img-bg{
@@ -30,7 +30,7 @@
   width: 159px;
   height: 159px;
   top: 58px;
-  left: 222px;
+  left: -52px;
   @include img-dark-bg;
 }
 
@@ -39,19 +39,19 @@
   width: 92px;
   height: 92px;
   top: 92px;
-  left: 262px;
+  left: -20px;
 }
 
 .home-restaurant-img {
   position: absolute;
   width: 206px;
   top: 171px;
-  left: 343px;
+  left: 58px;
 }
 
 .img-text-section {
   display: grid;
-  gap: 92%;
+  gap: 167%;
 }
 
 .home-donut-img-bg {
@@ -59,7 +59,7 @@
   width: 112px;
   height: 112px;
   top: 357px;
-  left: 232px;
+  left: -32px;
   @include img-dark-bg;
 }
 
@@ -68,5 +68,5 @@
   width: 66px;
   height: 66px;
   top: 379px;
-  left: 253px;
+  left: -8px;
 }

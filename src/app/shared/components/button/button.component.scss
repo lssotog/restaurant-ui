@@ -2,6 +2,10 @@
 .primary {
   background-color: var(--green);
   color: var(--white);
+  &:hover {
+    background-color: var(--white);
+    color: var(--green);
+  }
 }
 
 .secondary {
@@ -27,6 +31,7 @@
   left: 58px;
   opacity: 1;
   border-radius: 20px;
+  border-style: var(--green);
   font-family: var(--nunito), sans-serif;
   font-weight: 700;
   font-style: Bold;
@@ -41,7 +46,7 @@
   height: 40;
   top: 486px;
   left: 58px;
-  opacity: 1;
+  border-style: var(--green);
   font-family: var(--nunito), sans-serif;
   font-weight: 700;
   font-style: Bold;
